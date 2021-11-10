@@ -13,7 +13,7 @@ docker network create --driver bridge postgres-network
 docker container run -d --name postgres --network postgres-network  -e POSTGRES_PASSWORD=pgpwd -e POSTGRES_USER=pguser -p 5432:5432   -v postgresql_vol:/vol/postgresql/data postgres
 
 ```
-### Subindo o Container do PHPAdmin na porta 8080
+### Subindo o Container do PHPAdmin na porta 5050
 ```
 docker container run  --name teste-pgadmin -d --network postgres-network -p 5050:5050 fenglc/pgadmin4:latest
 
