@@ -20,11 +20,12 @@ docker container run  --name teste-pgadmin -d --network postgres-network -p 5050
 docker run --name teste-pgadmin --network=postgres-network -p 15432:80 -e "PGADMIN_DEFAULT_EMAIL=renatogroff@yahoo.com.br" -e "PGADMIN_DEFAULT_PASSWORD=PgAdmin2018!" -d dpage/pgadmin4
 
 ```
-### php MyAdmin
-![pgAdmin](img/dashboard.png)
-
 ### php Conexão
 ![conexao](img/conexao.png)
 
 ### php Parâmetro
 ![parametro](img/parametro.png)
+### php MyAdmin
+![pgAdmin](img/dashboard.png)
+
+
